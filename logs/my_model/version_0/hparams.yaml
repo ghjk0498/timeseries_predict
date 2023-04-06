@@ -1,0 +1,15 @@
+const_init: true
+future_cov_dim: 0
+input_chunk_length: 20
+input_dim: 3
+likelihood: null
+lr_scheduler_cls: null
+lr_scheduler_kwargs: null
+normalize: false
+nr_params: 1
+optimizer_cls: !!python/name:torch.optim.adam.Adam ''
+optimizer_kwargs: null
+output_chunk_length: 5
+output_dim: 1
+shared_weights: false
+static_cov_dim: 0
